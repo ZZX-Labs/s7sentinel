@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon.png" alt="S7Sentinel Icon" width="220">
+  <img src="icon.png" alt="S7Sentinel Icon" width="420">
 </p>
 
 # S7Sentinel
