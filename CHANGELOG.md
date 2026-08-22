@@ -2,7 +2,7 @@
 
 All notable changes are documented here. The project follows Semantic Versioning while the public API remains pre-1.0.
 
-## [0.3.0] - 2026-08-21
+## [0.1.0] ~~[0.3.0]~~ - 2026-08-21
 
 ### Added
 
