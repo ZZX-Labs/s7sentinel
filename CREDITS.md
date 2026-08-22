@@ -11,3 +11,5 @@ MITRE ATT&CK and MITRE D3FEND terminology is referenced for defensive mapping. M
 Siemens and S7 product names are trademarks of their respective owner. Snap7, Hermes, OpenClaw, and other project/product names belong to their respective owners. References are descriptive and do not imply endorsement, sponsorship, or affiliation.
 
 Contributors are credited through Git history and release notes.
+
+Creator: [0xdeadbeef] of ZZX-Labs R&D
