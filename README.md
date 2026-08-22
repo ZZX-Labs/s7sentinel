@@ -134,6 +134,28 @@ s7sentinel profile aa26-231a
 s7sentinel profile dream-agentic-2026
 ```
 
+## Run directly with GitHub Actions
+
+[![Run S7Sentinel Analysis](https://img.shields.io/badge/GitHub%20Actions-Run%20S7Sentinel%20Analysis-2088FF?logo=githubactions&logoColor=white)](https://github.com/ZZX-Labs/s7sentinel/actions/workflows/analyze.yml)
+
+S7Sentinel includes a reusable GitHub Action and an interactive `workflow_dispatch` workflow for low-friction analytical access. Click the badge above, choose **Run workflow**, select a mode, and analyze a repository-resident inventory or sanitized telemetry file. Reports are uploaded as workflow artifacts.
+
+GitHub-hosted execution is intentionally **offline/read-only**: the Action never performs PLC network scans from GitHub infrastructure. It supports `inventory`, `s7log`, `agentlog`, `hostcheck`, and `agentcheck` against files or roots already present in the checked-out repository.
+
+Use it from another repository:
+
+```yaml
+- uses: actions/checkout@v4
+- id: s7
+  uses: ZZX-Labs/s7sentinel@v0.3.1
+  with:
+    mode: inventory
+    source: security/plc-inventory.csv
+    fail-on-findings: "false"
+```
+
+The Action exposes aggregate outputs such as `finding-count`, `high-count`, `critical-count`, `max-severity`, and report paths, while preserving native S7Sentinel exit-code semantics. See [docs/github-action.md](docs/github-action.md) for the complete input/output reference, pull-request gating examples, and data-handling guidance.
+
 ## AA26-231A coverage
 
 The PLC posture model covers the advisory's major defensive themes:
