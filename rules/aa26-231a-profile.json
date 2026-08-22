@@ -1,0 +1,33 @@
+{
+  "alert_code": "AA26-231A",
+  "release_date": "2026-08-19",
+  "title": "Defending Against an Active Threat to Siemens S7 Series PLCs",
+  "targeted_families": [
+    "S7-200",
+    "S7-300",
+    "S7-400",
+    "S7-1200: CPU 1211C, 1212C, 1214C, 1215C, 1217C",
+    "S7-1500 including F-series"
+  ],
+  "attack_ids": [
+    "T1596.005",
+    "T1587.004",
+    "T1588.007",
+    "T0834",
+    "T0821",
+    "T0849",
+    "T1694",
+    "T0893"
+  ],
+  "d3fend_ids": [
+    "D3-HCI",
+    "D3-SU",
+    "D3-NI",
+    "D3-NAM",
+    "D3-CH",
+    "D3-PM",
+    "D3-NTA",
+    "D3-ACH"
+  ],
+  "note": "Local metadata profile derived from the advisory text supplied to the project. It contains no fabricated CVE or firmware vulnerability assertions."
+}

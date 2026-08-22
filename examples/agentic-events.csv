@@ -1,0 +1,11 @@
+timestamp,src_ip,user,system,event,endpoint,status,auth_result,auth_method,jwt_alg,bytes_out,file_name,user_agent,authorized,sensitive,change_ticket
+2026-07-01T00:00:00+00:00,10.9.0.5,alice,portal,login,/login,401,failed,password,RS256,100,,example-agent,no,no,
+2026-07-01T00:00:05+00:00,10.9.0.5,bob,portal,login,/login,401,failed,password,RS256,100,,example-agent,no,no,
+2026-07-01T00:00:10+00:00,10.9.0.5,carol,portal,login,/login,401,failed,password,RS256,100,,example-agent,no,no,
+2026-07-01T00:00:15+00:00,10.9.0.5,dave,portal,login,/login,401,failed,password,RS256,100,,example-agent,no,no,
+2026-07-01T00:00:20+00:00,10.9.0.5,erin,portal,login,/login,401,failed,password,RS256,100,,example-agent,no,no,
+2026-07-01T00:00:25+00:00,10.9.0.5,frank,portal,login,/login,401,failed,password,RS256,100,,example-agent,no,no,
+2026-07-01T00:00:30+00:00,10.9.0.5,grace,portal,login,/login,401,failed,password,RS256,100,,example-agent,no,no,
+2026-07-01T00:00:35+00:00,10.9.0.5,heidi,portal,login,/login,401,failed,password,RS256,100,,example-agent,no,no,
+2026-07-01T00:01:00+00:00,10.9.0.5,alice,api,api_request,/personnel,200,success,none,none,20000000,,example-agent,no,yes,
+2026-07-01T00:01:05+00:00,10.9.0.5,alice,web,file_upload,/upload,201,success,session,RS256,20,example.aspx,example-agent,no,no,

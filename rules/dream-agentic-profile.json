@@ -1,0 +1,25 @@
+{
+  "id": "dream-agentic-2026",
+  "title": "Defensive profile derived from the supplied Dream Research Labs multi-agent intrusion report",
+  "observed_period": "2026-07-01/2026-07-04",
+  "status": "behavioral-detection-profile",
+  "behaviors": [
+    "parallel endpoint reconnaissance",
+    "password spraying",
+    "cross-system SSO pivot patterns",
+    "unsigned JWT acceptance indicators",
+    "unauthenticated sensitive API access",
+    "server-executable file upload events",
+    "large sensitive responses",
+    "Hermes/OpenClaw workspace artifacts",
+    "high-volume automation bursts"
+  ],
+  "non_goals": [
+    "credential cracking",
+    "CAPTCHA bypass",
+    "JWT forgery",
+    "web-shell creation or execution",
+    "vulnerability exploitation",
+    "autonomous target discovery"
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "cve": "CVE-EXAMPLE-0001",
+    "model_regex": "S7-1200",
+    "firmware_regex": "^4\\.5\\.",
+    "severity": "HIGH",
+    "summary": "EXAMPLE RULE ONLY. Replace with a verified Siemens ProductCERT or CISA advisory.",
+    "remediation": "Verify the real vendor advisory and apply the vendor-approved firmware or compensating controls."
+  }
+]

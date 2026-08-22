@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: S7Sentinel
+message: If you use S7Sentinel in research or defensive engineering, cite this software and the underlying source advisories/research where appropriate.
+type: software
+version: 0.3.0
+date-released: 2026-08-21
+license: MIT
+abstract: Defensive Siemens S7/OT and agentic-intrusion posture, artifact, and telemetry analysis toolkit.
+authors:
+  - name: S7Sentinel contributors
