@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/s7sentinel-icon.png" alt="S7Sentinel hexagonal icon" width="220">
+  <img src="icon.png" alt="S7Sentinel Icon" width="220">
 </p>
 
 # S7Sentinel
